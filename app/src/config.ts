@@ -40,6 +40,19 @@ export default defineConfig({
 `,
           button: 'Дальше',
         },
+        {
+          media: {
+            type: 'sticker',
+            src: import('./assets/stickers/3_1.tgs'),
+            size: 250,
+          },
+          shape: 'square',
+          pagination: 'count',
+          title: 'В полный рост',
+          description:
+              `Загружай луки в полный рост, чтобы стилист мог оценить образ целиком.`,
+          button: 'Дальше',
+        },
 
         // sticker
         {
