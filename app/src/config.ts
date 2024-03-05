@@ -43,6 +43,20 @@ export default defineConfig({
         {
           media: {
             type: 'sticker',
+            src: import('./assets/stickers/3_0.tgs'),
+            size: 250,
+          },
+          shape: 'square',
+          pagination: 'count',
+          title: 'Один образ за раз',
+          description:
+              `Отправляй один лук за раз.
+При отправке нескольких луков, стилист сделает разбор только 1 лука на своё усмотрение.`,
+          button: 'Дальше',
+        },
+        {
+          media: {
+            type: 'sticker',
             src: import('./assets/stickers/3_1.tgs'),
             size: 250,
           },
